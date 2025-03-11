@@ -1,0 +1,23 @@
+{
+  "name": "es-go-track",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berkkush/es-go-track.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Berkkush/es-go-track/issues"
+  },
+  "homepage": "https://github.com/Berkkush/es-go-track#readme",
+  "dependencies": {
+    "puppeteer": "^24.4.0"
+  }
+}
