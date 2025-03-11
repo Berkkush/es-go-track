@@ -1,10 +1,11 @@
 {
   "version": 2,
+  "builds": [
+    { "src": "api/track.js", "use": "@vercel/node" }
+  ],
   "functions": {
     "api/track.js": {
-      "runtime": "nodejs18.x",
-      "memory": 1024,
-      "maxDuration": 30
+      "runtime": "nodejs18.x"
     }
   }
 }
